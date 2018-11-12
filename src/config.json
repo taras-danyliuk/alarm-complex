@@ -1,0 +1,1011 @@
+{
+  "version": "pzi_01112018_1523",
+  "State": true,
+  "Scan": true,
+  "IPAddress": "192.168.222.222",
+  "Netmask": "255.255.255.0",
+  "Gateway": "",
+  "IPServer": "",
+  "PortServer": "",
+  "TimeScan": "100",
+  "LowAddress": "1",
+  "TopAddress": "256",
+  "Modules": [
+    {
+      "Type": "MTS",
+      "ID": 11,
+      "Firmware": "05-23-46-54",
+      "Usage": true,
+      "State": true,
+      "Sensors": [
+        {
+          "Type": "TS",
+          "ID": 0,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 1,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 2,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 3,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 4,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 5,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 6,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 7,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 8,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 9,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 10,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 11,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 12,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 13,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 14,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 15,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 16,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 17,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 18,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 19,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 20,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 21,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 22,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 23,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 24,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 25,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 26,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 27,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 28,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 29,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 30,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 31,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        }
+      ]
+    },
+    {
+      "Type": "MTS",
+      "ID": 33,
+      "Firmware": "05-23-46-54",
+      "Usage": true,
+      "State": false,
+      "Sensors": [
+        {
+          "Type": "TS",
+          "ID": 0,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 1,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": false,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 2,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": false
+        },
+        {
+          "Type": "TS",
+          "ID": 3,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 4,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 5,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 6,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 7,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 8,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 9,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 10,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 11,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 12,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 13,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 14,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 15,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 16,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 17,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 18,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 19,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 20,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 21,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 22,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 23,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 24,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 25,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 26,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 27,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 28,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 29,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 30,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 31,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NC",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        }
+      ]
+    },
+    {
+      "Type": "MPI",
+      "ID": 249,
+      "Firmware": "07-21-96-14",
+      "Usage": true,
+      "State": true,
+      "Sensors": [
+        {
+          "Type": "PI",
+          "ID": 0,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "PI",
+          "ID": 1,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "PI",
+          "ID": 2,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "PI",
+          "ID": 3,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "PI",
+          "ID": 4,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "PI",
+          "ID": 5,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "PI",
+          "ID": 6,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "PI",
+          "ID": 7,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        }
+      ]
+    },
+    {
+      "Type": "KMKP",
+      "ID": 123,
+      "Firmware": "18-71-36-54",
+      "Usage": false,
+      "State": true,
+      "Sensors": [
+        {
+          "Type": "TS",
+          "ID": 0,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 1,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 2,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 3,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 4,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 5,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 6,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TS",
+          "ID": 7,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TU",
+          "ID": 0,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TU",
+          "ID": 1,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TU",
+          "ID": 2,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TU",
+          "ID": 3,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TU",
+          "ID": 4,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TU",
+          "ID": 5,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TU",
+          "ID": 6,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TU",
+          "ID": 7,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "NO",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TI",
+          "ID": 0,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "2-3",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TI",
+          "ID": 1,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "2,3-5",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TI",
+          "ID": 2,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "0-3",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TI",
+          "ID": 3,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "2-2,7",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TI",
+          "ID": 4,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "0,5-1",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TI",
+          "ID": 5,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "1-4",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TI",
+          "ID": 6,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "0-4",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        },
+        {
+          "Type": "TI",
+          "ID": 7,
+          "Name": "Бокс",
+          "Location": "вул. Пупкіна, 17",
+          "Normal": "0-4",
+          "Current": "",
+          "Usage": true,
+          "State": true
+        }
+      ]
+    }
+  ]
+}
