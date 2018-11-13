@@ -6,8 +6,6 @@ import Home from "./scenes/home";
 import Block from "./scenes/block";
 import Module from "./scenes/module";
 
-import './App.css';
-import './modules/modules.css';
 import config from "./config.json";
 
 
@@ -16,7 +14,9 @@ class App extends Component {
     return (
       <Router>
         <div className="app">
-          <div className="header"></div>
+          <div className="header">
+            <div className="button ">Reboot</div>
+          </div>
 
           <div className="main">
             <Siderbar modules={config.Modules}/>

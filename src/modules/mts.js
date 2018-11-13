@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import TSSensor from "../sensors/tsSensor";
+import Sensor from "../sensors/sensor";
 
 
 class MTS extends Component {
@@ -14,7 +14,7 @@ class MTS extends Component {
     let sensors = null;
     if (Sensors.length) {
       sensors = Sensors.map(sensor => {
-        return <TSSensor key={ `mts${ID}sensor${sensor.ID}` } sensor={sensor} />
+        return <Sensor key={ `mts${ID}sensor${sensor.ID}` } sensor={sensor} />
       })
     }
 

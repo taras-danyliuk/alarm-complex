@@ -4,8 +4,24 @@ import MTS from '../modules/mts';
 import MPI from '../modules/mpi';
 import KMKP from '../modules/kmkp';
 
+import { TooltipProvider } from '../tooltipContext';
+
 
 class Home extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      tooltipOpen: false,
+      tooltipContent: []
+    }
+  }
+
+  updateContent = (visible, content) => {
+    this.setState({ tooltipOpen: visible, tooltipContent: content });
+  };
+
+
   render() {
     let modules = null;
     if (this.props.modules.length) {
@@ -22,7 +38,17 @@ class Home extends Component {
 
     return (
       <div className="home">
-        { modules }
+        <TooltipProvider
+          value={{
+            isOpen: this.state.tooltipOpen,
+            content: this.state.tooltipContent,
+            updateContent: this.updateContent
+          }}
+        >
+          { modules }
+
+          { this._renderTooltip() }
+        </TooltipProvider>
       </div>
     );
   }
@@ -38,6 +64,21 @@ class Home extends Component {
       default:
         return <div>Oops, module { module.Type } not found</div>
     }
+  }
+
+  _renderTooltip() {
+    let visibility = "hidden";
+    if (this.state.tooltipOpen) visibility = "visible";
+
+    const content = this.state.tooltipContent.map(el => {
+      return <p key={el}>{el}</p>
+    });
+
+    return (
+      <div className="tooltip" style={{ visibility }}>
+        { content }
+      </div>
+    )
   }
 }
 

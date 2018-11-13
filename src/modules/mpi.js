@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
-import TSSensor from "../sensors/tsSensor";
-import PISensor from "../sensors/piSensor";
-import TISensor from "../sensors/tiSensor";
-import TUSensor from "../sensors/tuSensor";
+import Sensor from '../sensors/sensor';
+
 
 class MPI extends Component {
   render() {
@@ -16,7 +14,7 @@ class MPI extends Component {
     let sensors = null;
     if (Sensors.length) {
       sensors = Sensors.map(sensor => {
-        return this._renderSensor(sensor, `mpi${ID}sensor${sensor.ID}`);
+        return <Sensor key={ `mpi${ID}sensor${sensor.ID}` } sensor={sensor} />
       })
     }
 
@@ -25,21 +23,6 @@ class MPI extends Component {
         { sensors }
       </div>
     );
-  }
-
-  _renderSensor(sensor, key) {
-    switch (sensor.Type) {
-      case 'TS':
-        return <TSSensor key={ key } sensor={ sensor }/>;
-      case 'PI':
-        return <PISensor key={ key } sensor={ sensor }/>;
-      case 'TI':
-        return <TISensor key={ key } sensor={ sensor }/>;
-      case 'TU':
-        return <TUSensor key={ key } sensor={ sensor }/>;
-      default:
-        return <div key={ key }>Oops, sensor { sensor.Type } not found</div>
-    }
   }
 }
 
