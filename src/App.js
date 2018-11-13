@@ -12,7 +12,7 @@ import config from "./config.json";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="app">
           <div className="header">
             <div className="button ">Reboot</div>
