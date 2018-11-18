@@ -36,7 +36,7 @@ class Sensor extends Component {
 
 
   render() {
-    const { ID, Normal, Usage, State } = this.props.sensor;
+    const { ID, Usage, State, Name } = this.props.sensor;
 
     const sensorClassNames = ["module-sensor"];
     if (Usage && State) sensorClassNames.push("module-sensor-normal");
@@ -57,7 +57,7 @@ class Sensor extends Component {
         { processing }
 
         <p className="module-sensor-id">{ID}</p>
-        <p className="module-sensor-info">{Normal}</p>
+        <p className="module-sensor-info">{Name}</p>
       </div>
     );
   }

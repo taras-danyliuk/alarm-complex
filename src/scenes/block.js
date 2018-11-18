@@ -20,7 +20,7 @@ class Block extends Component {
 
 
   render() {
-    const { version, IPAddress, IPServer, LowAddress, Netmask, PortServer, TimeScan, TopAddress } = this.state;
+    const { version, IPAddress, IPServer, LowAddress, Netmask, PortServer, TimeScan, TopAddress, Gateway } = this.state;
 
     return (
       <div className="block">
@@ -35,18 +35,18 @@ class Block extends Component {
         </div>
 
         <div className="block-row">
-          <p className="block-row-label">IPServer</p>
-          <input className="block-row-input" value={IPServer} onChange={this._onChange.bind(this, "IPServer")}/>
-        </div>
-
-        <div className="block-row">
-          <p className="block-row-label">LowAddress</p>
-          <input className="block-row-input" value={LowAddress} onChange={this._onChange.bind(this, "LowAddress")}/>
-        </div>
-
-        <div className="block-row">
           <p className="block-row-label">Netmask</p>
           <input className="block-row-input" value={Netmask} onChange={this._onChange.bind(this, "Netmask")}/>
+        </div>
+
+        <div className="block-row">
+          <p className="block-row-label">Gateway</p>
+          <input className="block-row-input" value={Gateway} onChange={this._onChange.bind(this, "Gateway")}/>
+        </div>
+
+        <div className="block-row">
+          <p className="block-row-label">IPServer</p>
+          <input className="block-row-input" value={IPServer} onChange={this._onChange.bind(this, "IPServer")}/>
         </div>
 
         <div className="block-row">
@@ -57,6 +57,11 @@ class Block extends Component {
         <div className="block-row">
           <p className="block-row-label">TimeScan</p>
           <input className="block-row-input" value={TimeScan} onChange={this._onChange.bind(this, "TimeScan")}/>
+        </div>
+
+        <div className="block-row">
+          <p className="block-row-label">LowAddress</p>
+          <input className="block-row-input" value={LowAddress} onChange={this._onChange.bind(this, "LowAddress")}/>
         </div>
 
         <div className="block-row">

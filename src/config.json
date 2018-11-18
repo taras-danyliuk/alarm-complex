@@ -4,7 +4,7 @@
   "Scan": true,
   "IPAddress": "192.168.222.222",
   "Netmask": "255.255.255.0",
-  "Gateway": "",
+  "Gateway": "0.0.0.0",
   "IPServer": "",
   "PortServer": "",
   "TimeScan": "100",

@@ -28,7 +28,7 @@ class Home extends Component {
       modules = this.props.modules.map(module => {
         return (
           <div className="module-holder" key={ module.ID }>
-            <h3 className="module-title">{module.Type}</h3>
+            <h3 className="module-title">{module.Type} ({module.ID})</h3>
 
             { this._renderModule(module) }
           </div>

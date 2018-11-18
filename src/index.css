@@ -133,7 +133,8 @@ code {
   margin-bottom: 0;
 }
 .module-title {
-  min-width: 80px;
+  min-width: 100px;
+  font-size: 15px;
   text-align: center
 }
 
@@ -153,6 +154,7 @@ code {
 }
 .block-row-input {
   height: 30px;
+  padding: 0 5px;
 }
 
 
@@ -167,13 +169,33 @@ code {
 }
 .module-table {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-columns: repeat(7, auto);
   background-color: pink;
   grid-gap: 1px;
   padding: 3px;
 }
 .grid-cell {
   background-color: #fff;
+  padding: 1px 3px;
+  min-height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.grid-cell-checkbox {
+  margin: 0 0 0 5px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.grid-cell-save {
+  cursor: pointer;
+  width: 90%;
+  background-color: #eee;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  height: 100%;
 }
 
 
